@@ -33,5 +33,7 @@ public interface KingdomFactory {
   King createKing();
 
   Army createArmy();
+  
+  Wizard CreateWizard(); 
 
 }

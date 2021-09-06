@@ -43,4 +43,10 @@ public class ElfKingdomFactory implements KingdomFactory {
     return new ElfArmy();
   }
 
+@Override
+public Wizard CreateWizard() {
+	// TODO Auto-generated method stub
+	return new ElfWizard();
+}
+
 }

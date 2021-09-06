@@ -42,4 +42,10 @@ public class OrcKingdomFactory implements KingdomFactory {
   public Army createArmy() {
     return new OrcArmy();
   }
+
+@Override
+public Wizard CreateWizard() {
+	// TODO Auto-generated method stub
+	return new OrcWizard();
+}
 }
